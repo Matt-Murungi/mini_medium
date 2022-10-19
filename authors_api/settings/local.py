@@ -9,10 +9,9 @@ SECRET_KEY = env("DJANGO_SECRET_KEY", default="django-insecure-%rj_-9(*y^jsn(*pr
 # SECURITY WARNING: don't run with debug turned on in production!
 ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': ROOT_DIR / 'db.sqlite3',
-    }
-}
-DATABASES["default"]["ATOMIC_REQUESTS"] = True
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': ROOT_DIR / 'db.sqlite3',
+#     }
+# }
