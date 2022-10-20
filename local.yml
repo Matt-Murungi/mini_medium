@@ -19,7 +19,7 @@ services:
         depends_on:
             - postgres
             - mailhog
-            - redis
+            
         networks:
             - authors-api-live
 
